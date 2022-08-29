@@ -1,5 +1,6 @@
 var currentTime = document.querySelector("#currentDay");
 var currentHour = moment().hour();
+var userTask = document.querySelector(".description");
 
 // starts and stops countdown
 function clockUpdate() {
@@ -21,4 +22,16 @@ $(".time-block").each(function () {
   } else {
     $(this).find(".description").addClass("future");
   }
+});
+
+// $(".saveBtn").on("click", function () {
+//   localStorage.setItem("time", userTask);
+//   console.log("buttonclick");
+// });
+
+$(".saveBtn").on("click", function () {
+  var localKey = $(this).parent().attr("id");
+  var value = $(this).parent().find(".description").val();
+  //Save Key and Value to Local Storage
+  localStorage.setItem(localKey, value);
 });
