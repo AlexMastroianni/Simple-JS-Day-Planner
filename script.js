@@ -11,9 +11,9 @@ clockUpdate();
 
 $(".time-block").each(function () {
   var hour = $(this).attr("id");
-  var textEntry = localStorage.getItem(hour);
-  var textArea = $(this).find(".description");
-  textArea.val(textEntry);
+  var userInput = localStorage.getItem(hour);
+  var description = $(this).find(".description");
+  description.val(userInput);
   if (hour < currentHour) {
     $(this).find(".description").addClass("past");
   } else if (hour == currentHour) {
@@ -22,11 +22,6 @@ $(".time-block").each(function () {
     $(this).find(".description").addClass("future");
   }
 });
-
-// $(".saveBtn").on("click", function () {
-//   localStorage.setItem("time", userTask);
-//   console.log("buttonclick");
-// });
 
 $(".saveBtn").on("click", function () {
   var localKey = $(this).parent().attr("id");
