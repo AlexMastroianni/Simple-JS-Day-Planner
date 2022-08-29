@@ -1,6 +1,5 @@
 var currentTime = document.querySelector("#currentDay");
 var currentHour = moment().hour();
-var userTask = document.querySelector(".description");
 
 // starts and stops countdown
 function clockUpdate() {
@@ -10,11 +9,11 @@ function clockUpdate() {
 }
 clockUpdate();
 
-console.log(currentHour);
-
 $(".time-block").each(function () {
   var hour = $(this).attr("id");
-  console.log(hour);
+  var textEntry = localStorage.getItem(hour);
+  var textArea = $(this).find(".description");
+  textArea.val(textEntry);
   if (hour < currentHour) {
     $(this).find(".description").addClass("past");
   } else if (hour == currentHour) {
@@ -32,6 +31,5 @@ $(".time-block").each(function () {
 $(".saveBtn").on("click", function () {
   var localKey = $(this).parent().attr("id");
   var value = $(this).parent().find(".description").val();
-  //Save Key and Value to Local Storage
   localStorage.setItem(localKey, value);
 });
