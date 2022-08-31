@@ -21,7 +21,7 @@ User is greeted with a time blocks for each hour of the working day. Each block 
 
 #### Tech
 
-This projects takes advantage of multiple third pary APIs. Using moment JS for all time related components, Bootstrap for styling and Jquery for business logic of the app.
+This projects takes advantage of multiple third pary APIs. Using moment JS for all time related components, Bootstrap for styling and Jquery for logic of the app.
 
 #### Acceptance Criteria
 ```md
