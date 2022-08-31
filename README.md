@@ -43,6 +43,6 @@ THEN the saved events persist
 
 ## Links
 
-[Github Repo] (https://github.com/AlexMastroianni/week-5-challenge)
+[Github Repo](https://github.com/AlexMastroianni/week-5-challenge)
 
-[Live Site] (https://alexmastroianni.github.io/week-5-challenge/)
+[Live Site](https://alexmastroianni.github.io/week-5-challenge/)
