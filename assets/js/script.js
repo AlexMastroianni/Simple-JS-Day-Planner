@@ -11,6 +11,7 @@ clockUpdate();
 
 // targets each timeblock class, var 'hour' targerts with ID being an hour by number, userInput grabs the text field info from local storage based on the ID
 $(".time-block").each(function () {
+  //grabs the id from the current timeblock
   var hour = $(this).attr("id");
   var userInput = localStorage.getItem(hour);
   var description = $(this).find(".description");
@@ -28,7 +29,10 @@ $(".time-block").each(function () {
 
 // save button adds the text area data to local storage using the current hour ID as the keyname
 $(".saveBtn").on("click", function () {
+  // parent being the timeblock class
   var localKey = $(this).parent().attr("id");
   var description = $(this).parent().find(".description").val();
   localStorage.setItem(localKey, description);
 });
+
+//
