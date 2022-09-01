@@ -15,13 +15,14 @@ This weeks challenge was to build a day planner for a company looking to maximis
 
 User is greeted with a time blocks for each hour of the working day. Each block shows the current time, has a field to so you can mark down the task for that hour and a save button. As the time flows through the day the colour of the block change, Green meaning coming up, Red meaning current task and Grey meaning time is up for that task. To keep track of the current time there is a clock at the top of the page counting down the seconds so you dont keep moving!
 
+![Work Day Scheduler](https://user-images.githubusercontent.com/107826386/187870802-c784501b-4f54-4a6f-8880-c89609cc51b0.gif)
 
 
 
 
 #### Tech
 
-This projects takes advantage of multiple third pary APIs. Using moment JS for all time related components, Bootstrap for styling and Jquery for business logic of the app.
+This projects takes advantage of multiple third pary APIs. Using moment JS for all time related components, Bootstrap for styling and Jquery for logic of the app.
 
 #### Acceptance Criteria
 ```md
@@ -43,6 +44,6 @@ THEN the saved events persist
 
 ## Links
 
-Github Repo
+[Github Repo](https://github.com/AlexMastroianni/week-5-challenge)
 
-Live Site
+[Live Site](https://alexmastroianni.github.io/week-5-challenge/)
