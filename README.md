@@ -17,6 +17,9 @@ User is greeted with a time blocks for each hour of the working day. Each block 
 
 ![Work Day Scheduler](https://user-images.githubusercontent.com/107826386/187870802-c784501b-4f54-4a6f-8880-c89609cc51b0.gif)
 
+### After Hours
+
+<img width="1728" alt="Screen Shot 2022-09-01 at 6 49 28 pm" src="https://user-images.githubusercontent.com/107826386/187873306-d6433055-75e5-44a0-9bde-bc984c59804a.png">
 
 
 
