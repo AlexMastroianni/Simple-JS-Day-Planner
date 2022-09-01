@@ -15,6 +15,7 @@ This weeks challenge was to build a day planner for a company looking to maximis
 
 User is greeted with a time blocks for each hour of the working day. Each block shows the current time, has a field to so you can mark down the task for that hour and a save button. As the time flows through the day the colour of the block change, Green meaning coming up, Red meaning current task and Grey meaning time is up for that task. To keep track of the current time there is a clock at the top of the page counting down the seconds so you dont keep moving!
 
+![Work Day Scheduler](https://user-images.githubusercontent.com/107826386/187870802-c784501b-4f54-4a6f-8880-c89609cc51b0.gif)
 
 
 
