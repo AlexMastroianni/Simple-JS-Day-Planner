@@ -9,7 +9,7 @@ function clockUpdate() {
 }
 clockUpdate();
 
-// targets each timeblock class, var 'hour' targerts with ID being an hour by number, userInput grabs the text field info from local storage based on teh ID
+// targets each timeblock class, var 'hour' targerts with ID being an hour by number, userInput grabs the text field info from local storage based on the ID
 $(".time-block").each(function () {
   var hour = $(this).attr("id");
   var userInput = localStorage.getItem(hour);
